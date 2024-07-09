@@ -33,7 +33,6 @@ const ResetPassword = () => {
     <div>
       <div className="container login">
         <br />
-       
         <br />
         <div className="row g-4 d-flex justify-content-center">
           <div className="col-6 ">
@@ -45,8 +44,8 @@ const ResetPassword = () => {
                     <input
                       className="form-control"
                       type="password"
-                      id="newPassword"
-                      name="newPassword"
+                      id="newpassword"
+                      name="newpassword"
                       placeholder="Enter New Password"
                       required
                       onChange={(e) => setNewPassword(e.target.value)}
@@ -57,8 +56,8 @@ const ResetPassword = () => {
                     <input
                       className="form-control"
                       type="password"
-                      id="conPassword"
-                      name="conPassword"
+                      id="confirmPassword"
+                      name="confirmPassword"
                       placeholder="Confirm New Password"
                       required
                       onChange={(e) => setConfirmPassword(e.target.value)}
