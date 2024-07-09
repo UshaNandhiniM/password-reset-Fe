@@ -31,6 +31,7 @@ const ResetPassword = () => {
 
   return (
     <div>
+      <h1>reset page</h1>
       <div className="container login">
         <br />
         <br />
